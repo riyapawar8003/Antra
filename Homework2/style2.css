@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+.tweet {
+  width: 560px;
+  background: #fff;
+  border: 1px solid #cfd9de;
+  border-radius: 16px;
+  padding: 14px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tweet img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.user-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fullname {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+}
+
+.details {
+  font-size: 15px;
+  color: #71767b;
+}
+
+.tweet-text {
+  font-size: 15px;
+  color: #0f1419;
+  margin: 6px 0 12px 0;
+  line-height: 1.4;
+}
+
+.tweet-actions {
+  max-width: 425px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #536471;
+  font-size: 13px;
+}
+
+.tweet-actions svg {
+  width: 16px;
+  height: 16px;
+  fill: #536471;
+}
