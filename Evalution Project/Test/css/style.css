@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+  }
+  
+  
+  .timer-box {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    width: 140px;
+    border: 2px solid #b45b5b;
+    padding: 10px 12px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .timer-title {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .timer-value {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  
+  .header {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .title {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+  }
+  
+  .score-text {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+  
+  .btn {
+    padding: 6px 12px;
+    border: 1px solid #666;
+    background: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .btn:active {
+    transform: translateY(1px);
+  }
+  
+
+  .board-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .board {
+    width: 880px; 
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+
+  .hole {
+    width: 200px;
+    height: 200px;
+    border: 2px solid brown;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .mole {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    user-select: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .character {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+  }
